@@ -1,0 +1,165 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BasicAsyncClient/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "MovingObjectServer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BasicAsyncClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicAsyncClient.dll": {}
+        }
+      },
+      "BasicAsyncServer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BasicAsyncClient": "1.0.0",
+          "MovingObjectServer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BasicAsyncServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicAsyncServer.dll": {}
+        }
+      },
+      "MovingObjectServer/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MovingObjectServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovingObjectServer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BasicAsyncClient/1.0.0": {
+      "type": "project",
+      "path": "../BasicAsyncClient/BasicAsyncClient.csproj",
+      "msbuildProject": "../BasicAsyncClient/BasicAsyncClient.csproj"
+    },
+    "BasicAsyncServer/1.0.0": {
+      "type": "project",
+      "path": "../BasicAsyncServer/BasicAsyncServer.csproj",
+      "msbuildProject": "../BasicAsyncServer/BasicAsyncServer.csproj"
+    },
+    "MovingObjectServer/1.0.0": {
+      "type": "project",
+      "path": "../MovingObjectServer/MovingObjectServer.csproj",
+      "msbuildProject": "../MovingObjectServer/MovingObjectServer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BasicAsyncClient >= 1.0.0",
+      "BasicAsyncServer >= 1.0.0",
+      "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObjectClient\\MovingObjectServer.csproj",
+      "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObject\\MovingObject.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\Tugas2\\Tugas2.csproj",
+      "projectName": "Tugas2",
+      "projectPath": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\Tugas2\\Tugas2.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\Tugas2\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\BasicAsyncClient\\BasicAsyncClient.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\BasicAsyncClient\\BasicAsyncClient.csproj"
+            },
+            "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\BasicAsyncServer\\BasicAsyncServer.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\BasicAsyncServer\\BasicAsyncServer.csproj"
+            },
+            "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObjectClient\\MovingObjectServer.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObjectClient\\MovingObjectServer.csproj"
+            },
+            "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObject\\MovingObject.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObject\\MovingObject.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObjectClient\\MovingObjectServer.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObjectClient\\MovingObjectServer.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObject\\MovingObject.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Lenovo\\Downloads\\aaa\\TugasJarkom-main\\MovingObject\\MovingObject.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
